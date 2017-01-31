@@ -1,0 +1,11 @@
+.container {
+  background-color: red; }
+
+.list-items li {
+  height: auto; }
+
+.list-items li.hidden {
+  transition: all .5s ease-in-out;
+  height: 0; }
+
+/*# sourceMappingURL=main.css.map */

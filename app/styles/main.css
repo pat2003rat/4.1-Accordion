@@ -5,18 +5,34 @@ h3 {
   margin: 0px;
   border: 1px;
   font-size: 10px;
-  line-height: 1.45; }
+  line-height: 1.7; }
 
 .container {
   width: 350px;
   border: 1px; }
+
+span.numbers-main {
+  float: inherit;
+  border-radius: 50%;
+  position: relative; }
+
+span.numbers-quantity {
+  float: right;
+  color: #898B8E;
+  position: relative;
+  border: .5px solid grey;
+  border-radius: 15px;
+  top: 3px;
+  background-color: #E5E5E5;
+  width: 30px;
+  text-align: center; }
 
 ul {
   list-style-type: none;
   margin-left: 0px; }
 
 li {
-  margin-left: -40px;
+  margin-left: -35px;
   background-color: #E5E5E5; }
 
 h3:hover {

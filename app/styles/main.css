@@ -1,11 +1,26 @@
+h3 {
+  background: #5B5D62;
+  color: white;
+  padding: 5px;
+  margin: 0px;
+  border: 1px;
+  font-size: 10px;
+  line-height: 1.45; }
+
 .container {
-  background-color: red; }
+  width: 350px;
+  border: 1px; }
 
-.list-items li {
-  height: auto; }
+ul {
+  list-style-type: none;
+  margin-left: 0px; }
 
-.list-items li.hidden {
-  transition: all .5s ease-in-out;
-  height: 0; }
+li {
+  margin-left: -40px;
+  background-color: #E5E5E5; }
+
+h3:hover {
+  background-color: #89AF35;
+  color: #3F5708; }
 
 /*# sourceMappingURL=main.css.map */
